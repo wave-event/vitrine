@@ -1,0 +1,33 @@
+.container {
+	background-color: #ffffff;
+	width: 100%;
+	/* max-width: 98%; */
+}
+
+#WElogo {
+	max-width: 150px;
+}
+
+nav {
+	background-color: #ffffff;
+}
+
+#infoBlocs {
+	margin-left: 13%;
+}
+
+.teal {
+	background-color: #cecece !important;
+}
+
+.footInfos {
+	background-color: #cecece !important;
+	color: #000000;
+	/* margin-left: 2%; */
+	/* padding-right: 2%; */
+}
+
+.cpy {
+	color: #000000;
+	background-color: #cecece !important;
+}

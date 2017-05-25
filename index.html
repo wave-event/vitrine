@@ -1,1 +1,102 @@
-This is empty.
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Import Google Icon Font-->
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta charset="UTF-8">
+	</head>
+
+	<body>
+		<!--Import jQuery before materialize.js-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+	  
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo center"><img id="WElogo" src="css/2018_logo_Wave-Event.png"/></a>
+			</div>
+		</nav>
+		
+		 <div class="container row">
+			
+			<div class="slider">
+				<ul class="slides">
+					<li>
+						<img src="css/event.PNG"> <!-- random image -->
+						<div class="caption left-align">
+							<h3>Imaginez, Créez, Profitez ...</h3>
+							<h5 class="light grey-text text-lighten-3">... avec simplicité</h5>
+						</div>
+					</li>
+					<li>
+						<img src="css/details.png"> <!-- random image -->
+						<div class="caption center-align">
+							<h3>Un grand choix d'outils ...</h3>
+							<h5 class="light grey-text text-lighten-3">... pour une meilleure organisation</h5>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="section" id="infoBlocs">
+				<div class=" row">
+					<div class="col s12 m4 l4">
+						<div class="icon-block">
+							<h2>Bloc 1</h2>
+							<h5>Bloc 1</h5>
+						</div>
+					</div>
+					<div class="col s12 m4 l4">
+						<div class="icon-block">
+							<h2>Bloc 2</h2>
+							<h5>Bloc 2</h5>
+						</div>
+					</div>
+					<div class="col s12 m4 l4">
+						<div class="icon-block">
+							<h2>Bloc 3</h2>
+							<h5>Bloc 3</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<footer class="page-footer teal">
+		<script>
+			$(document).ready(function(){
+				$('.slider').slider();
+				$('.indicators').remove();
+			});
+		</script>
+		<div class="container footInfos row">
+			<div class="col s12 l6">
+				<h5 class="black-text">Settings</h5>
+				<ul>
+					<li><a class="black-text" href="#!">Link 1</a></li>
+					<li><a class="black-text" href="#!">Link 2</a></li>
+					<li><a class="black-text" href="#!">Link 3</a></li>
+					<li><a class="black-text" href="#!">Link 4</a></li>
+				</ul>
+			</div>
+			<div class="col l3 s12">
+				<h5 class="black-text">Connect</h5>
+				<ul>
+					<li><a class="black-text" href="#!">Link 1</a></li>
+					<li><a class="black-text" href="#!">Link 2</a></li>
+					<li><a class="black-text" href="#!">Link 3</a></li>
+					<li><a class="black-text" href="#!">Link 4</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-copyright footInfos">
+			<div class="container cpy">Créer par Wave-Event</div>
+		</div>
+	</footer>
+</html>
